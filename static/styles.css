@@ -1,0 +1,76 @@
+body {
+    background: #f5f7fa;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-box input {
+    padding: 5px;
+    width: 120px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.resultado-box {
+    margin-top: 15px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #bbb;
+    margin-bottom: 15px;
+}
+
+.cultivo-card { border-left: 5px solid #4CAF50; }
+.rendimiento-card { border-left: 5px solid #2196F3; }
+.info-card { border-left: 5px solid #FF9800; }
+
+.tips-box {
+    margin-top: 30px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
